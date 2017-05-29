@@ -1,0 +1,8 @@
+# Before starting box, add keys into folder /etc/web/ssl
+folder1.net.crt
+folder1.net.key
+folder2.net.crt
+folder2.net.key
+
+$ sudo docker run -p 80:80 -p 443:443 -p 8080:8080 -p 4444:4444 -d -v /mnt/web/www:/var/www -v /mnt/ssl:/etc/apache2/ssl vovamelnik/apache
+
