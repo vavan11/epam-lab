@@ -1,4 +1,4 @@
-# Before starting box, add keys into folder /mnt/web/ssl
+# Before starting box, you mast add keys into folder /mnt/web/ssl
 folder1.net.crt
 folder1.net.key
 folder2.net.crt
